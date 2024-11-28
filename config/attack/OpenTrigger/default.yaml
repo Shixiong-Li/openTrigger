@@ -1,0 +1,8 @@
+attack_label_trans: all2one
+attack_target: 0
+pratio: 0.05
+attack: OpenTrigger
+attack_trigger_img_path: ../resource/OpenTrigger/cifar10_triggers/train
+test_trigger_img_path: ../resource/OpenTrigger/cifar10_triggers/test
+attack_train_blended_alpha: 0.3
+attack_test_blended_alpha: 0.4
