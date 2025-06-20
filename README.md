@@ -21,7 +21,7 @@ python ./psoOptimization/trainSurrogateModel.py
 ```
 python ./psoOptimization/optimizaNoiseCifar100.py
 ```
-Thanks to [BackdoorBench]&#40;https://github.com/SCLBD/BackdoorBench&#41; for providing partial code support.
+
 ### Citation:
 If you find the code useful in your research, please consider citing our paper:
 
@@ -33,3 +33,8 @@ If you find the code useful in your research, please consider citing our paper:
           year={2025},
           organization={Springer}
  } 
+```
+
+Note: Our implementation uses parts of some public codes:
+
+[1] BackdoorBench https://github.com/SCLBD/BackdoorBench
