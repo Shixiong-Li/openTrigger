@@ -1,3 +1,6 @@
+### Abstract:
+Backdoor attacks have been extensively explored in recent years which attack deep neural networks (DNNs) by poisoning their training set and causing targeted mis-classification. Research on such attacks is critical for today’s widespread applications based on DNNs due to their low-cost and high efficacy. While many backdoor attacks have been proposed, they usually rely on using a static and fixed trigger for attacks, which not only lacks adaptability but also renders them easier to detect. To address such a limitation, we introduce OpenTrigger in this paper, a novel backdoor attack framework employing dynamic triggers for enhancing attack flexibility and robustness. Unlike traditional approaches that rely on a single fixed trigger, our proposed attack learns a generalized consistent feature across a built trigger pool, hence enabling even the use of unseen triggers during testing that differ from those used during training. Extensive experiments across multiple datasets and model architecture confirm the high effectiveness and robustness of OpenTrigger against state-of-the-art and even adaptive backdoor defenses, establishing it as a versatile and practical backdoor attack strategy.
+
 ### Requirements:
 You can run the following script to configure the necessary environment:
 ```
