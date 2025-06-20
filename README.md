@@ -21,5 +21,15 @@ python ./psoOptimization/trainSurrogateModel.py
 ```
 python ./psoOptimization/optimizaNoiseCifar100.py
 ```
+Thanks to [BackdoorBench]&#40;https://github.com/SCLBD/BackdoorBench&#41; for providing partial code support.
+### Citation:
+If you find the code useful in your research, please consider citing our paper:
 
-[//]: # (Thanks to [BackdoorBench]&#40;https://github.com/SCLBD/BackdoorBench&#41; for providing partial code support.)
+```
+ @InProceedings{Li2025beyond,
+          author={Li, Shixiong and Lyu, Xingyu and Wang, Ning and Li, Tao and Chen, Danjue and Chen, Yimin},
+          booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining}, 
+          title={Beyond Uniformity: Robust Backdoor Attacks on Deep Neural Networks with Trigger Selection}, 
+          year={2025},
+          organization={Springer}
+ } 
