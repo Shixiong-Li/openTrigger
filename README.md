@@ -1,3 +1,4 @@
+### Requirements:
 You can run the following script to configure the necessary environment:
 ```
 cd BackdoorBench
@@ -7,6 +8,7 @@ sh ./sh/install.sh
 sh ./sh/init_folders.sh
 ```
 
+### Running the code on CIFAR-10:
 You can directly run our attack on the CIFAR-10 dataset:
 ```
 python ./attack/openTrigger.py --yaml_path ../config/attack/prototype/cifar10.yaml  --save_folder_name openTrigger_0_05
