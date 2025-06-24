@@ -37,13 +37,14 @@ python ./psoOptimization/optimizaNoiseCifar100.py
 If you find the code useful in your research, please consider citing our paper:
 
 ```
- @InProceedings{Li2025beyond,
-          author={Li, Shixiong and Lyu, Xingyu and Wang, Ning and Li, Tao and Chen, Danjue and Chen, Yimin},
-          booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining}, 
-          title={Beyond Uniformity: Robust Backdoor Attacks on Deep Neural Networks with Trigger Selection}, 
-          year={2025},
-          organization={Springer}
- } 
+ @inproceedings{li2025beyond,
+  title={Beyond Uniformity: Robust Backdoor Attacks on Deep Neural Networks with Trigger Selection},
+  author={Li, Shixiong and Lyu, Xingyu and Wang, Ning and Li, Tao and Chen, Danjue and Chen, Yimin},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={290--302},
+  year={2025},
+  organization={Springer}
+}
 ```
 
 Note: Our implementation uses parts of some public codes:
